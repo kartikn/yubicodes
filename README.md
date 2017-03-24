@@ -1,11 +1,11 @@
 # Yubicodes
 
-Yubicodes is an Alfred workflow that makes it easier to fetch numeric authentication codes from Yubikeys. It utilizes the Alfred-Workflow helper library by @deanishe to execute a python script and fetch codes via command line.
+Yubicodes is an Alfred workflow that makes it easier to fetch numeric authentication codes from Yubikeys. It utilizes the [Alfred-Workflow](http://www.deanishe.net/alfred-workflow/) helper library by [deanishe](https://github.com/deanishe) to execute a python script and fetch codes via command line.
 
 # Dependencies
 
 * Python 2.7
-* yubioath command line utility
+* Yubico Authenticator Command Line Utility - [yubioath](https://developers.yubico.com/yubioath-desktop/)
 
 # Usage
 * Install the workflow and configure hotkeys.
