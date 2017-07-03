@@ -5,9 +5,10 @@ Yubicodes is an Alfred workflow that makes it easier to fetch numeric authentica
 # Dependencies
 
 * Python 2.7
-* Yubico Authenticator Command Line Utility - [yubioath](https://developers.yubico.com/yubioath-desktop/)
+* Yubikey Manager CLI Utility - Installation Guide [Here](https://developers.yubico.com/yubikey-manager/) 
 
 # Usage
+* Ensure Yubikey Manager is installed
 * Install the workflow and configure hotkeys.
 * Launch workflow using the hotkey. 
 * Workflow accepts argument to filter service names.
@@ -15,4 +16,4 @@ Yubicodes is an Alfred workflow that makes it easier to fetch numeric authentica
 
 # License
 
-Workflow is licensed under the MIT License. For more details, please see the Licence file.
+Workflow is licensed under the MIT License. For more details, please see the License file.
