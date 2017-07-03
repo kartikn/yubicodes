@@ -4,7 +4,7 @@ import sys, subprocess
 from workflow import Workflow
 
 def main(wf):
-    command = ["/usr/local/bin/yubioath"]
+    command = ["/usr/local/bin/ykman", "oath", "code"]
     if len(sys.argv) > 1:
         command.append(sys.argv[1])
     variable = subprocess.Popen(command, stdout=subprocess.PIPE)
